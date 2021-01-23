@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Tracker</title>
+
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- !Bootstrap LInks -->
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- !Custom Css -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- !Font Awesome -->
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&family=Poppins:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <!-- !Google fonts -->
+
+</head>
+<body style=" background-color:aliceblue; ">
+
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gra;">
+  <div class="container">
+    <i class="fas fa-map-marker-alt fa-2x"> <span class="Palanquin">JTracker</span></i>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    
+      <ul class="navbar-nav ml-auto Palanquin">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">JTracker <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Create Job</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign Up</a>
+      </li>
+    </ul>
+    </i>
+  </div>
+  </div>
+      </nav>
+      <!-- !Navbar -->
+    </header>
+
+    <main>
+      <!-- Job-finder -->
+      <section id="job-finder">
+          <div class=" font-size-24 Poppins text-center">
+            <img src="./new.jpg" alt="a" style="width: 100%; height: 10%; ">
+               
+            <!-- Track-link -->
+            <div class="track-link" style="margin-top: -55%; margin-bottom: 40%;">
+               <h5><i class="fas fa-map-marker-alt fa-4x"></i>Job Tracker</h5>
+               <p>Track your job application</p>
+               <a class="btn btn-lg" href="#" role="button"
+                 style="background-color: #D1D0CE; border-color: #D1D0CE;">Track Your Job</a>
+            </div>
+            <!-- Track-link -->
+
+          </div>
+      </section>
+      <!-- !Job-finder -->
+
+      <!-- search job -->
+      <section id="search-job" style="padding-top: 2%; padding-bottom: 5%;">
+        <div class="container">
+           <div class="row" style="margin-top: 5%;">
+             <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card-head">
+                 <i class="fas fa-users fa-3x" style="margin-left: 42%; size: 200%;"></i>
+              </div>
+               <div class="card-body">
+                 <p><strong>Get Noticed</strong> by over 25,000+ verified recruiters searching for top talent.</p>
+               </div>
+               
+               <div class="card-head">
+                 <i class="fas fa-award fa-3x" style="margin-left: 42%;"></i>
+               </div>
+              <div class="card-body">
+                 <p><strong>Look your best</strong> with JTracker Resume and apply to jobs in just two clicks.</p>
+              </div>
+
+              <div class="card-head">
+                <i class="fas fa-compass fa-3x" style="margin-left: 42%; size:0em"></i>
+              </div>
+              <div class="card-body">
+                <p><strong>Find your match</strong> from over 250,000+ screened jobs.</p>
+              </div>
+               
+             </div>
+             <div class="col-lg-6 col-md-6 col-sm-12">
+               <h5 style="margin-left: 20%;">Search Jobs Now</h5>
+
+               <!-- What do you do -->
+               <label for="">WHAT DO YOU DO</label>
+               <select class="form-control form-control-lg" style="margin-bottom: 2.33%;">
+                 <option></option>
+                 <option value="">Accounting &amp; Finance</option>
+                 <option value="">Engineering &amp; Construction</option>
+                 <option value="">Healthcare</option>
+                 <option value="">Human Resources &amp; Legal</option>
+                 <option value="">Marketing, Media &amp; Design</option>
+                 <option value="">Operations &amp; General Management</option>
+                 <option value="">Project &amp; Program Management</option>
+                 <option value="">Sales &amp; Business Development</option>
+                 <option value="">Science &amp; Education</option>
+                 <option value="">Technology</option>
+                 <option value="">Other</option>
+               </select>
+               <!-- !What do you do -->
+
+               <!-- Cureent and Desired Compensation -->
+               <div class="form-row">
+                 <div class="col">
+                   <label for="">CURRENT COMPENSATION</label>
+                   <select class="form-control form-control-lg" style="margin-bottom: 2.33%;">
+                     <option></option>
+                     <option value="">$<span>60K</span> </option>
+                     <option value="">$<span>65K</span> </option>
+                     <option value="">$<span>70K</span> </option>
+                     <option value="">$<span>75K</span> </option>
+                     <option value="">$<span>80K</span> </option>
+                     <option value="">$<span>85K</span> </option>
+                     <option value="">$<span>90K</span> </option>
+                     <option value="">$<span>95K</span> </option>
+                     <option value="">$<span>100K</span> </option>
+                   </select>
+                 </div>
+                 <div class="col">
+                   <label for="">DESIRED COMPENSATION</label>
+                   <select class="form-control form-control-lg" style="margin-bottom: 2.33%;">
+                     <option></option>
+                     <option value="">$<span>200K</span> </option>
+                     <option value="">$<span>400K</span> </option>
+                     <option value="">$<span>600K</span> </option>
+                     <option value="">$<span>800K</span> </option>
+                     <option value="">$<span>100K</span> </option>
+                     <option value="">$<span>120K</span> </option>
+                     <option value="">$<span>140K</span> </option>
+                     <option value="">$<span>160K</span> </option>
+                     <option value="">$<span>180K</span> </option>
+                   </select>
+                 </div>
+               </div>
+               <!-- !Current and Desired Compensation -->
+
+               <!-- Desired job title -->
+                <div class="form-group">
+                  <label for="formGroupExampleInput">DESIRED JOB TITLE</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="">
+                </div>
+               <!-- !Desired job title -->
+
+                 <!-- Buttons -->
+                 
+                 <!-- Facebook button -->
+                 <a class="btn btn-primary" href="#" role="button"><i class="fab fa-facebook-square"></i>
+                   Continue With Facebook</a> <br> <br>
+                 <!-- !Facebook button -->
+
+                   <!-- Google button -->
+                   <a class="btn btn-danger" href="#" role="button"><i class="fab fa-google"></i> Continue With
+                     Google</a>
+                   <!-- !Goggle button -->
+
+                 <!-- Buttons -->
+             </div>
+           </div>
+        </div>
+      </section>
+      <!-- !search job -->
+
+      <!-- Featured Jobs -->
+      <section id="featured-jobs">
+       <div class="container text-center">
+         <h2 style="margin-top: 5%; margin-bottom: 5%;" class="Poppins">Featured Job</h2>
+          <div class="row Palanquin" style="margin-bottom: 4%;">
+          <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 4%;">
+            <div class="card">
+              <img src="./a.jpg" alt="a" class="card-img">
+              <div class="card-body">
+                $ <span>121,000 Per Year</span>
+                <h6>Mechanical Engineering.</h6>
+                <hr>
+               <p>We are looking for a skilled Mechanic to assemble, maintain and repair machinery and vehicles. You
+                 will be responsible for ensuring functionality and reliability of machines, engines and mechanical
+                 systems.</p>
+                <hr>
+                <a href="#" class="Orange"><i class="fas fa-bullseye"></i> View Job</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 4%;">
+            <div class="card">
+              <img src="./b.jpg" alt="b" class="card-img">
+              <div class="card-body">
+                $ <span>49,080</span>
+                <h6>FIrefighter.</h6>
+                <hr>
+               <p>We are looking for an experienced Firefighterto work with a team of professionals that suppresses
+                 fires as well as attending to accidents and emergencies. The job is challenging yet extremely rewarding
+                 as saving lives and protecting property is of utmost importance for our community.</p>
+                <hr>
+                <a href="#" class="Orange"><i class="fas fa-bullseye"></i> View Job</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="./c.jpg" alt="c" class="card-img">
+              <div class="card-body">
+                $ <span>134,791 Per Year</span>
+                <h6>Project Manager</h6>
+                <hr>
+               <p>Project managers are the point person in charge of a specific project or projects within an
+                 organization. We regularly feature resources for project managers to help train PMs to land jobs in the
+                 industry or develop better skills in their current role.</p>
+                <hr>
+                <a href="#" class="Orange"><i class="fas fa-bullseye"></i> View Job</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- !Featured jobs -->
+
+        <!-- text-box -->
+        <section id="text-box">
+         <div class="container text-center Palanquin White" style="background-color: black; padding-top: 5%; padding-bottom: 3%; padding-left: 10%; padding-right: 10%;">
+            <p>For more information and inquiries, you can get in touch with any of customer care lines or write and leave us an email.</p>
+          
+            <!-- Buttons for Customer service -->
+             <a class="btn btn-danger" href="tel:+" role="button" style="margin-top: .99%; margin-left: 5%;">
+               Call <i class="fas fa-headset" style="margin-left: -1.01%;"></i>
+             </a>
+             <a class="btn btn-success" href="mailto:" role="button" style="margin-top: .99%; margin-left: 4%;">
+               Mail <i class="fas fa-envelope"></i>
+             </a>
+            <!-- !Buttons for customer Service -->
+
+         </div>
+        </section> 
+        <!-- !text-box -->
+
+        <!-- Latest release -->
+        <section id="latest-release" style="margin-top: 9%;">          
+           <div class="container">
+          <h3 class="text-center">Latest Releases &amp Mentions:</h3>
+          <hr>
+          <p>October1, 2020</p>
+          <p><strong>Fast Company :</strong> How to use the latest management trend to get raises and job offers</p>
+          <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+          <hr>
+          <p>July27,2020</p>
+          <p><strong>Business Insider :</strong> How to figure out your market value during a recession so you can
+            negotiate the salary you deserve after landing a dream job</p>
+           <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+           <hr>
+           <p>July23, 2020</p>
+           <p><strong>Business Insider :</strong> How to ask for a raise during the recession to get the salary you
+             deserve</p>
+            <a href="#">Read More <i class="fas fa-angle-double-right"></i></a>
+            <button type="button" class="btn btn-outline-primary btn-lg" style="margin-left: 2%;">View Press Features</button>
+       </div>
+        </section>
+        <!-- !Latest release -->
+
+       <!-- Testimonials -->
+       <section id="testimonials">
+         <div class="container text-center" style="margin-top: 6%;">
+           <h4 style="margin-bottom: 6%;" class="Poppins">Testimonials</h4>
+           <hr>
+            <div class="row Poppins">
+             <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 4%;">
+               
+                 <div class="card-body">
+                   <img src="./a1.jpg" alt="1" class="card-img" style="margin-bottom: 4%;">
+                   <h5> <strong>John Doe</strong> 1.02.2014 </h5>
+                   <p>
+                     I was jobless and in debts. I was cut off without any reason and let go.
+                    At the verge of giving up, I was introduced to JTracker by a friend. I dropped my application and got a job which I love without any complications.
+                  </p>
+                 </div>
+                              
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 4%;">
+               
+                 <div class="card-body">
+                   <img src="./a2.jpg" alt="2" class="card-img" style="margin-bottom: 4%;">
+                   <h5> <strong>Jane Smith</strong> 10.07.2010 </h5>
+                   <p>
+                     I used to work for long hours of with very little pay. When I heard about JTracker, I applied for a Job of a higher pay  and of my desire and within a couple of days I was recommended to Job which suits my schedule and gives me more time with my kids and of a higher pay.
+                   </p>
+                 </div>               
+    
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-12" >
+               
+                 <div class="card-body">
+                   <img src="./a3.jpg" alt="3" class="card-img" style="margin-bottom: 4%;">
+                   <h4 ><strong>Kate Blue</strong> 11.07.2020 </h4>
+                   <p>After 6 months at home without a Job and no source of income, a friendtold me about JTracker and without any hesitation I looked it up and applied for a job of my field of study. And within a period of 2 weeks I was called up for the interview and given the Job with a comfortable pay.</p>
+                 </div> 
+                          
+             </div>
+           </div>
+           <!-- Button Read-more -->
+             <a class="btn btn-lg Poppins" href="#" role="button"
+               style="margin-top: 0%; margin-bottom: 7%; background-color: aquamarine;">Read More</a>
+             <!-- !Button Read-more -->
+         </div>
+       </section>
+       <!-- !Testimonials -->
+
+
+    </main>
+    
+    <footer>
+       <!-- Footer -->
+       <section id="footer">
+         <div class="container-fluid" style="padding-bottom: 2%; padding-top: 5%;background-color: #98AFC7;">
+          <div class="container Roboto text-center">
+           <div class="row">
+             <div class="col-lg-3 col-md-3 col-sm-6">
+              <h4><i class="fas fa-map-marker-alt fa-lg"> <span class="Palanquin">JTracker</span></i></h4>
+              <a href="#" style="margin-right: 5%;"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <a href="#" style="margin-right: 5%;"><i class="fab fa-linkedin fa-lg" style="background-color: white;"></i></a>
+              <a href="#" style="margin-right: 5%;"><i class="fab fa-instagram-square fa-lg"></i></a>
+              <a href="mailto:"><i class="fas fa-envelope fa-lg"></i></a>
+              
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6">
+               <h4>Services</h4>
+               <a href="#">Job Search</a><br>
+               <a href="#">JTracker News</a><br>
+               <a href="#">Companies</a><br>
+               <a href="#">Industries</a><br>
+               <a href="#">Remote Jobs</a><br>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6">
+               <h4>Help</h4>
+               <a href="#">FAQS</a><br>
+               <a href="#">Member Help</a><br>
+               <a href="#">Recruiter Help</a><br>
+               <a href="#">Customer Service</a><br>
+               <a href="#">Privacy</a><br>
+               <a href="#">Terms &amp; Conditions</a>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-6">
+               <h4>About</h4>
+               <a href="#">Advertise With Us</a><br>
+               <a href="#">Company</a><br>
+               <a href="#">Clients</a><br>
+               
+             </div>
+           </div>
+           
+          </div>
+         </div>
+       </section>
+       <!-- !Footer -->
+    </footer>
+
+    <!-- Bostrap Js Links -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- !Bootstrap Js Links -->
+</body>
+</html>
